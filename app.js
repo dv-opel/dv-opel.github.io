@@ -14,6 +14,6 @@ console.log("Text:", firstValue.text);
 console.log("Value:", firstValue.value);
 
 Telegram.WebApp.onEvent("mainButtonClicked", function(){
-	tg.sendData(firstValue.text);
+	tg.sendData(firstValue);
 });
 
